@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <!--schimba parola, info/about, conecteaza-te cu fb,gmail, notificari,mobile data use, language, help, report problem, data policy, terms-->
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="85dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Data Usage"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="175dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Policy"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="265dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report a problem"
+        android:gravity="center"/>
+
+</RelativeLayout>

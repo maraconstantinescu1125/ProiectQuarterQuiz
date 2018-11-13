@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp"
-        app:srcCompat="@drawable/firefox" />
+        app:srcCompat="@mipmap/ic_app_icon_round" />
 
     <EditText
         android:id="@+id/TextUsername"
