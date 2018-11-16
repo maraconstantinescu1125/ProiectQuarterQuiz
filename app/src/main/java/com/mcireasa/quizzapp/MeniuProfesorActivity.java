@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MeniuProfesorActivity extends AppCompatActivity {
 
@@ -47,10 +48,13 @@ public class MeniuProfesorActivity extends AppCompatActivity {
                         break;
                 }
                 return false;
+
             }
         });
 
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -64,4 +68,18 @@ public class MeniuProfesorActivity extends AppCompatActivity {
     }
 
 
+    public void onClickCreateTest(View view) {
+         Intent intentCreateTest = new Intent(MeniuProfesorActivity.this, CreateTestActivity.class);
+         startActivity(intentCreateTest);
+    }
+
+    public void onClickNewsfeed(View view) {
+    }
+
+    public void seeCategories(View view) {
+        Intent explicitIntent =
+                new Intent(this,
+                        CategoryActivity.class);
+        startActivity(explicitIntent);
+    }
 }

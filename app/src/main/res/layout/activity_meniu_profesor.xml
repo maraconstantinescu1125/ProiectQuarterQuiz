@@ -5,13 +5,38 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MeniuProfesorActivity">
+    tools:context=".MeniuProfesorActivity"
+    android:background="@color/backgroud">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="seeCategories"
+            android:text="@string/button_meniu_principal_categorii" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/button_meniu_principal_crearetest"
+            android:onClick="onClickCreateTest"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/button_meniu_principal_newsfeed"
+        android:onClick="onClickNewsfeed"/>
 
     </LinearLayout>
+
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
